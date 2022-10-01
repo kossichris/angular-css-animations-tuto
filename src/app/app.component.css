@@ -1,0 +1,21 @@
+p {
+  font-family: Lato;
+}
+
+img {
+  filter: invert();
+}
+
+.one {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  /*transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: steps(4);*/
+  transition: width 2s ease;
+}
+
+.one:active {
+  width: 400px;
+}
